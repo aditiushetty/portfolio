@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects by Aditi U Shetty — software, AI, and web development work.">
+  <title>Projects | Aditi U Shetty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Aditi U Shetty<span>.</span></a>
+      <button class="menu-btn" aria-label="Open navigation">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="nav-active">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="nav-resume" href="Aditi_U_Shetty_Resume.pdf" download>Resume ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects" class="section container">
+      <div class="section-label">PROJECTS</div>
+      <div class="section-heading project-heading">
+        <div>
+          <h2>Things I've<br><em>built.</em></h2>
+        </div>
+        <p>Projects focused on solving real problems, simplifying workflows, and exploring new technology.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project-card featured reveal">
+          <div class="project-top"><span></span><span>REAL-TIME PLATFORM</span></div>
+          <h3>RaktaSetu</h3>
+          <p>Real-time blood donation and management platform connecting donors, hospitals, and donation camps.</p>
+          <ul>
+            <li>Blood requests & emergency handling</li>
+            <li>Donor eligibility and inventory management</li>
+            <li>Donation camp coordination</li>
+          </ul>
+          <div class="project-bottom"><span>JavaScript · React · Supabase</span><span>↗</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top"><span></span><span>CLINIC SOFTWARE</span></div>
+          <h3>Doctors Appointment & Billing</h3>
+          <p>Clinic management software for patient records, appointments, prescriptions, medical history and billing.</p>
+          <div class="project-bottom"><span>Local data · App workflows</span><span>↗</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top"><span></span><span>AI / AUTOMATION</span></div>
+          <h3>AI Voice Assistant — Jarvis</h3>
+          <p>Python-based voice assistant using speech recognition, intent detection, task planning and system-level automation.</p>
+          <div class="project-bottom"><span>Python · NLP · Agentic AI</span><span>↗</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top"><span></span><span>IN PROGRESS</span></div>
+          <h3>MedQuery</h3>
+          <p>An intelligent medical question-answering concept combining BERT-based query understanding with knowledge retrieval.</p>
+          <div class="project-bottom"><span>BERT · NLP · Retrieval</span><span>↗</span></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>Aditi U Shetty</span>
+      <span>Engineering the Logic.</span>
+      <span>© <span id="year"></span></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
