@@ -7,15 +7,14 @@
   <title>Education | Aditi U Shetty</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="noise"></div>
 
   <header class="nav-wrap">
     <nav class="nav container">
-      <a class="brand" href="index.html">Aditi U Shetty<span>.</span></a>
+      <a class="brand" href="index.html">Aditi U Shetty</a>
       <button class="menu-btn" aria-label="Open navigation">☰</button>
       <div class="nav-links">
         <a href="index.html">Home</a>
@@ -24,103 +23,121 @@
         <a href="education.html" class="nav-active">Education</a>
         <a href="contact.html">Contact</a>
       </div>
-      <a class="nav-resume" href="Aditi_U_Shetty_Resume.pdf" download>Resume ↗</a>
+      <a class="nav-resume" href="Aditi_U_Shetty_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
     </nav>
   </header>
 
   <main>
-    <!-- EDUCATION -->
-    <section id="education" class="section section-alt">
-      <div class="container">
-        <div class="section-label">EDUCATION</div>
-        <div class="education-grid">
-          <div>
-            <h2>Learning with<br><em>purpose.</em></h2>
-          </div>
-          <div class="timeline reveal">
-            <article>
-              <span class="year">2024 — 2028</span>
-              <h3>B.E. Computer Science & Engineering</h3>
-              <p>RV Institute of Technology and Management, Bengaluru</p>
-              <strong>Expected graduation · 2028</strong>
-            </article>
-            <article>
-              <span class="year">PUC</span>
-              <h3>Academic Highlights</h3>
-              <p>97.17% overall · 100/100 in Mathematics and Chemistry</p>
-            </article>
-            <article>
-              <span class="year">10TH</span>
-              <h3>Academic Highlights</h3>
-              <p>99.52% overall · 100/100 in Mathematics, Social Science, Kannada and Hindi</p>
-            </article>
-          </div>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header container reveal">
+      <div class="section-label">Education</div>
+      <h1>Learning with<br><em>purpose.</em></h1>
+      <p>Academic foundations built on curiosity, consistency, and a love for mathematics and logic.</p>
+    </div>
+
+    <!-- EDUCATION TIMELINE -->
+    <section class="section container">
+      <div class="education-grid">
+        <div class="reveal">
+          <h2>Academic<br><em>Journey.</em></h2>
+          <p style="color:var(--muted);margin-top:20px;font-size:16px;line-height:1.75;max-width:340px;">
+            From perfect scores in high school to pursuing a Computer Science degree — a path defined by dedication and discipline.
+          </p>
+        </div>
+        <div class="timeline reveal">
+          <article>
+            <span class="year">2024 — 2028</span>
+            <h3>B.E. Computer Science &amp; Engineering</h3>
+            <p>RV Institute of Technology and Management, Bengaluru</p>
+            <strong>Expected graduation · 2028</strong>
+          </article>
+          <article>
+            <span class="year">PUC</span>
+            <h3>Pre-University — Academic Highlights</h3>
+            <p>97.17% overall · 100/100 in Mathematics and Chemistry</p>
+          </article>
+          <article>
+            <span class="year">10th</span>
+            <h3>SSLC — Academic Highlights</h3>
+            <p>99.52% overall · 100/100 in Mathematics, Social Science, Kannada and Hindi</p>
+          </article>
         </div>
       </div>
     </section>
 
+    <div class="divider"></div>
+
     <!-- CERTIFICATIONS -->
-    <section id="certifications" class="section container">
-      <div class="section-label">CERTIFICATIONS</div>
-      <div class="section-heading">
-        <h2>Learning beyond<br><em>the classroom.</em></h2>
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-label">Certifications</div>
+        <div class="section-heading reveal">
+          <h2>Learning beyond<br><em>the classroom.</em></h2>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card reveal">
+            <span class="card-num">01</span>
+
+            <div class="cert-image">
+              <img
+                src="dpcamp_certificate.png"
+                alt="AlgoUniversity Dynamic Programming Camp certificate awarded to Aditi U Shetty"
+              />
+            </div>
+
+            <div class="cert-content">
+              <h3>Dynamic Programming Camp</h3>
+              <p>
+                Successfully completed the Dynamic Programming Camp under the
+                mentorship of Codeforces Master Manas Kumar Verma, with a focus on
+                Matrix Exponentiation and SQRT Decomposition.
+              </p>
+              <span class="cert-status">✦ Certified · AlgoUniversity</span>
+              <br>
+              <a
+                href="dpcamp_certificate.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cert-btn"
+              >
+                View Certificate ↗
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- AWARDS -->
+    <section class="section container">
+      <div class="section-label">Awards &amp; Recognition</div>
+      <div class="section-heading reveal">
+        <h2>Achievements that<br><em>speak for themselves.</em></h2>
       </div>
 
-      <div class="cert-grid">
-        <article class="cert-card reveal">
-          <span class="card-num">01</span>
-
-          <div class="cert-image">
-            <img
-              src="dpcamp_certificate.png"
-              alt="AlgoUniversity Dynamic Programming Camp certificate awarded to Aditi U Shetty"
-            />
-          </div>
-
-          <div class="cert-content">
-            <h3>Dynamic Programming Camp</h3>
-            <p>
-              Successfully completed the Dynamic Programming Camp under the
-              mentorship of Codeforces Master, Manas Kumar Verma, with a focus on
-              Matrix Exponentiation and SORT Decomposition.
-            </p>
-            <span class="cert-status">CERTIFIED · ALGO UNIVERSITY</span>
-            <a
-              href="dpcamp_certificate.png"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="cert-btn"
-            >
-              View Certificate ↗
-            </a>
-          </div>
+      <div class="recognition-grid">
+        <article class="award-card reveal">
+          <span>2024</span>
+          <h3>Best Outgoing Student</h3>
+          <p>Recognized as the Best Outgoing Student of the academic year 2024 in PUC — awarded for academic excellence and overall contribution.</p>
+        </article>
+        <article class="award-card reveal">
+          <span>2022</span>
+          <h3>Overall Academic Topper</h3>
+          <p>Recognized as the overall academic topper of the year 2022 in 10th grade, with a 99.52% aggregate.</p>
+        </article>
+        <article class="award-card reveal">
+          <span>100 / 100</span>
+          <h3>Subject Excellence</h3>
+          <p>Achieved full marks in multiple subjects across PUC and 10th — Mathematics, Chemistry, Social Science, Kannada, and Hindi.</p>
         </article>
       </div>
     </section>
 
-    <!-- AWARDS & RECOGNITION -->
-    <section id="recognition" class="section section-alt">
-      <div class="container">
-        <div class="section-label">AWARDS & RECOGNITION</div>
-        <div class="recognition-grid">
-          <article class="award-card reveal">
-            <span>2024</span>
-            <h3>Best Outgoing Student</h3>
-            <p>Recognized as the Best Outgoing Student of the academic year 2024 in PUC.</p>
-          </article>
-          <article class="award-card reveal">
-            <span>2022</span>
-            <h3>Overall Academic Topper</h3>
-            <p>Recognized as the overall academic topper of the year 2022 in 10th.</p>
-          </article>
-          <article class="award-card reveal">
-            <span>100 / 100</span>
-            <h3>Subject Excellence</h3>
-            <p>Achieved full marks in selected subjects across PUC and 10th.</p>
-          </article>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">

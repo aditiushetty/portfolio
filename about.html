@@ -7,15 +7,14 @@
   <title>About | Aditi U Shetty</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="noise"></div>
 
   <header class="nav-wrap">
     <nav class="nav container">
-      <a class="brand" href="index.html">Aditi U Shetty<span>.</span></a>
+      <a class="brand" href="index.html">Aditi U Shetty</a>
       <button class="menu-btn" aria-label="Open navigation">☰</button>
       <div class="nav-links">
         <a href="index.html">Home</a>
@@ -24,17 +23,29 @@
         <a href="education.html">Education</a>
         <a href="contact.html">Contact</a>
       </div>
-      <a class="nav-resume" href="Aditi_U_Shetty_Resume.pdf" download>Resume ↗</a>
+      <a class="nav-resume" href="Aditi_U_Shetty_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
     </nav>
   </header>
 
   <main>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header container reveal">
+      <div class="section-label">About</div>
+      <h1>Problem solver.<br><em>Practical builder.</em></h1>
+      <p>A Computer Science student driven by curiosity, logic, and the desire to build things that matter.</p>
+    </div>
+
     <!-- ABOUT -->
-    <section id="about" class="section container">
-      <div class="section-label">ABOUT</div>
+    <section class="section container">
       <div class="about-grid">
-        <div>
-          <h2>Problem solver.<br><em>Practical builder.</em></h2>
+        <div class="reveal">
+          <h2>Who I<br><em>am.</em></h2>
+          <div class="about-facts">
+            <div><span>Focus</span><strong>Build</strong><small>Practical software</small></div>
+            <div><span>Goal</span><strong>Learn</strong><small>AI & modern tech</small></div>
+            <div><span>Vision</span><strong>Impact</strong><small>Serve society</small></div>
+          </div>
         </div>
         <div class="about-copy reveal">
           <p>
@@ -45,22 +56,23 @@
           <p>
             I'm especially curious about AI/ML, NLP, and modern software systems.
             My long-term goal is to use technology in ways that serve society and create
-            meaningful impact.
+            meaningful impact — writing code is just the beginning of that journey.
           </p>
-          <div class="about-facts">
-            <div><span></span><strong>Build</strong><small>Practical software</small></div>
-            <div><span></span><strong>Learn</strong><small>AI & modern tech</small></div>
-            <div><span></span><strong>Impact</strong><small>Serve society</small></div>
-          </div>
+          <p>
+            Outside of coding, I'm drawn to mathematics, systems thinking, and understanding
+            how complex problems can be broken into elegant, simple solutions.
+          </p>
         </div>
       </div>
     </section>
 
+    <div class="divider"></div>
+
     <!-- SKILLS -->
-    <section id="skills" class="section section-alt">
+    <section class="section section-alt">
       <div class="container">
-        <div class="section-label">SKILLS</div>
-        <div class="section-heading">
+        <div class="section-label">Skills &amp; Tools</div>
+        <div class="section-heading reveal">
           <h2>Tools I use to<br><em>turn logic into products.</em></h2>
         </div>
 
@@ -68,36 +80,49 @@
           <article class="skill-card reveal">
             <span class="card-num">01</span>
             <h3>Programming</h3>
-            <div class="tags"><span>Java</span><span>Python</span><span>C</span><span>C++</span><span>JavaScript</span></div>
+            <div class="tags">
+              <span>Java</span><span>Python</span><span>C</span><span>C++</span><span>JavaScript</span>
+            </div>
           </article>
           <article class="skill-card reveal">
             <span class="card-num">02</span>
-            <h3>Web & Full Stack</h3>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span><span>TypeScript</span><span>Tailwind CSS</span></div>
+            <h3>Web &amp; Full Stack</h3>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span><span>TypeScript</span><span>Tailwind CSS</span>
+            </div>
           </article>
           <article class="skill-card reveal">
             <span class="card-num">03</span>
-            <h3>Backend & Data</h3>
-            <div class="tags"><span>SQL</span><span>MySQL</span><span>SQLite</span><span>REST APIs</span><span>Spring</span><span>Spring Boot</span></div>
+            <h3>Backend &amp; Data</h3>
+            <div class="tags">
+              <span>SQL</span><span>MySQL</span><span>SQLite</span><span>REST APIs</span><span>Spring</span><span>Spring Boot</span>
+            </div>
           </article>
           <article class="skill-card reveal">
             <span class="card-num">04</span>
-            <h3>AI & Automation</h3>
-            <div class="tags"><span>Machine Learning</span><span>BERT</span><span>NLP</span><span>Speech Recognition</span><span>Agentic AI</span><span>Task Planning</span></div>
+            <h3>AI &amp; Automation</h3>
+            <div class="tags">
+              <span>Machine Learning</span><span>BERT</span><span>NLP</span><span>Speech Recognition</span><span>Agentic AI</span><span>Task Planning</span>
+            </div>
           </article>
           <article class="skill-card reveal">
             <span class="card-num">05</span>
             <h3>Development Tools</h3>
-            <div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Vite</span><span>Electron</span></div>
+            <div class="tags">
+              <span>Git</span><span>GitHub</span><span>VS Code</span><span>Vite</span><span>Electron</span>
+            </div>
           </article>
           <article class="skill-card reveal">
             <span class="card-num">06</span>
             <h3>Engineering Mindset</h3>
-            <div class="tags"><span>Problem Solving</span><span>Open Source</span><span>Agile</span><span>CI/CD</span><span>Cloud Fundamentals</span><span>Big Data</span></div>
+            <div class="tags">
+              <span>Problem Solving</span><span>Open Source</span><span>Agile</span><span>CI/CD</span><span>Cloud Fundamentals</span><span>Big Data</span>
+            </div>
           </article>
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="footer">
